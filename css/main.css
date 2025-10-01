@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Poppins;
 }
 /*--HEADER--SECTION--*/
 .header{
@@ -42,11 +43,12 @@
 }
 .header__aside{
     }
-h1{
-    
+h1 span{
+    font-weight: 800;
+    font-style: italic;
 }
 span{
-
+    color: rgb(255, 196, 0);
 }
 .header__p{
     
