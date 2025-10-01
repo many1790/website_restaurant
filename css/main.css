@@ -5,13 +5,23 @@
 }
 /*--HEADER--SECTION--*/
 .header{
+    background-color: #000;
 
 }
 .header__nav{
-
+    background-color: rgb(255, 196, 0);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid #fff;
+    color: #fff;
 }
 .header__logo{
-
+    height: 60px;
+    width: 60px;
+    
 }
 .header__link{
 
@@ -26,21 +36,22 @@
 
 }
 .header__div{
-
+    display: flex;
+    color: #fff;
+    align-items: center;
 }
 .header__aside{
-
-}
+    }
 h1{
-
+    
 }
 span{
 
 }
 .header__p{
-
+    
 }
 .header__image{
-
+    width: 60%;
 }
 /*--MAIN--SECTION--*/
