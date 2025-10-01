@@ -25,7 +25,8 @@
     
 }
 .header__link{
-
+    text-decoration: none;
+    color: #fff;
 }
 .header__aside-nav{
 
@@ -37,6 +38,10 @@
 
 }
 .header__div{
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     display: flex;
     color: #fff;
     align-items: center;
