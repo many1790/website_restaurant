@@ -72,3 +72,16 @@ span{
     width: 60%;
 }
 /*--MAIN--SECTION--*/
+.main{
+    
+}
+.main__section {
+    border: 2px solid;
+    height: 250px;
+}
+.sec__0{
+
+}
+.sec__1, .sec__2, .sec__3{
+    height: 350px;
+}
