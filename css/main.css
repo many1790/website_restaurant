@@ -80,7 +80,17 @@ span{
     height: 250px;
 }
 .sec__0{
-
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    color: #000;
+}
+.sec__0-div{
+    height: 50%;
+    width: 100%;
 }
 .sec__1, .sec__2, .sec__3{
     height: 350px;
