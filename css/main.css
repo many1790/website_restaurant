@@ -76,7 +76,7 @@ span{
     
 }
 .main__section {
-    border: 2px solid;
+    
     height: 250px;
 }
 .sec__0{
@@ -109,4 +109,25 @@ span{
 }
 .sec__1, .sec__2, .sec__3{
     height: 350px;
+    
+}
+.sec__2{
+    background-color: rgb(227, 225, 225);
+}
+
+.sec__4{
+    background-color: rgb(227, 225, 225);
+}
+
+.sec__1{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+.sec__1-div{
+    width: 50%;
+}
+.sec__1-img{
+    padding: 25px;
+    width: 50%;
 }
