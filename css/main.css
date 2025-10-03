@@ -3,12 +3,12 @@
 /*--MAIN--SECTION--*/
 .main{
     display: grid;
-    grid-template-columns: ;
-    grid-template-rows: ;
+    grid-template-columns: 1fr;
+    grid-template-rows: 250px 350px 250px 350px 250px;
 }
 .main__section {
     
-    height: 250px;
+    
 }
 /*--SEC__0--SECTION--*/
 .sec__0{
@@ -41,7 +41,7 @@
 }
 /*--SEC__1--SECTION*/
 .sec__1, .sec__2, .sec__3{
-    height: 350px;
+   
 }
 .sec__1{
     
