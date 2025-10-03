@@ -1,72 +1,47 @@
 
 
-/*--MAIN--SECTION--*/
+/*--MAIN--*/
 .main{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 250px 350px 250px 350px 250px;
 }
+
+/*--SECTIONS--*/
 .main__section {
-    
-    
+    text-align: center;
 }
 /*--SEC__0--SECTION--*/
-.sec__0{
-    text-align: center;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #e3e1e1;
-    color: #000;
+.main__section.sec__0{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color:var(--third-color, #e3e1e1);
+    color: var(--font-color-third, #000);
 }
-.sec__0-div0{
+.sec__0-h2{
     font-size: 26px;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    display: flex;
-    height: 50%;
-    width: 100%;
-    margin-right: 60px;
+    align-self: self-end;
 }
-.sec__0-div1{
-    font-size: 20px;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    display: flex;
-    height: 50%;
-    width: 100%;
-    margin-left: 30px;
+.sec__0-p{
+    align-self: self-start;
 }
-/*--SEC__1--SECTION*/
-.sec__1, .sec__2, .sec__3{
-   
-}
-.sec__1{
-    
+/*--SEC__1--SECTION
+.main__section .sec__1{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    overflow-y: scroll;
-    overflow-x: hidden;
 }
 .sec__1-div{
     width: 50%;
 }
-.sec__1-div-img{
-    width: 50%;
-}
+
 .sec__1-img{
     width: 420px;
     height: 300px;
     padding: 25px;
-}
+}*/
 /*--SEC__2--SECTION--*/
-.sec__2{
-    background-color: rgb(227, 225, 225);
-    display: flex;
-    align-items: center;
+.main__section .sec__2{
+    background-color: var(--third-color, #e3e1e1);
     justify-content: space-around;
 }
 .sec__2-div1{
@@ -77,7 +52,6 @@
 }
 .sec__2-div2{
     width: 50%;
-    
 }
 .sec__2-img{
     width: 420px;
@@ -89,5 +63,5 @@
 
 /*--SEC__4--SECTION--*/
 .sec__4{
-    background-color: rgb(227, 225, 225);
+    background-color:var(--third-color, #e3e1e1);
 }
