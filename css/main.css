@@ -2,7 +2,9 @@
 
 /*--MAIN--SECTION--*/
 .main{
-    
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: ;
 }
 .main__section {
     
