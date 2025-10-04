@@ -1,7 +1,7 @@
 /*--HEADER--SECTION--*/
 /*--NAVBAR--*/
 .header__nav{
-    background-color: #ffc400;
+    background-color: var(--primary-color, #ffc400);
     width: 100%;
     height: 100px;
     display: flex;
@@ -9,7 +9,7 @@
     align-items: center;
     gap: 50px;
     border-bottom: 5px solid #fff;
-    color: #fff;
+    color: var(--font-color-primary, #fff);
     text-decoration: none;
 }
 .header__logo{
@@ -19,7 +19,7 @@
 }
 .header__link{
     text-decoration: none;
-    color: #fff;
+    color: var(--font-color-primary, #fff);
 }
 .header__link:hover{
     border-bottom: 2px solid #fff ;
@@ -35,7 +35,7 @@
 }
 .header__aside-phone{
     text-decoration: none;
-    color: #fff;
+    color: var(--font-color-primary, #fff);
     align-self: center;
 }
 /*--HIGTHLIGTHS--*/
@@ -43,9 +43,9 @@
     background-image: url(../images/bg.jpg);
     background-position: center;
     background-size: cover;
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    color: #fff;
+    color: var(--font-color-primary, #fff);
     align-items: center;
     box-shadow: 
         inset 300px 0 200px -100px rgb(0, 0, 0),  
@@ -53,7 +53,7 @@
 }
 .header__aside{
     margin-left: 50px;
-    }
+}
 h1, .header__sp{
     font-size: 50px;
     font-weight: 800;
@@ -62,7 +62,7 @@ h1, .header__sp{
     text-wrap: nowrap;
 }
 span{
-    color: rgb(255, 196, 0);
+    color: var(--primary-color, #ffc400);
 }
 .header__image{
     width: 90%;
