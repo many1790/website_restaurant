@@ -1,16 +1,13 @@
-/*--MAIN--*/
 .main{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     gap: 30px;
 }
-/*--SECTIONS--*/
 .main__section {
     text-align: center;
     padding: 30px;
 }
-/*--SEC__0--SECTION--*/
 .main__section.sec__0{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -27,7 +24,6 @@
 .sec__0-p, .sec__1-p{
     align-self: start;
 }
-/*--SEC__1--SECTION*/
 .main__section.sec__1{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -49,7 +45,6 @@
     text-decoration: none;
     font-size: 12px;
 }
-/*--SEC__2--SECTION*/
 .main__section.sec__2{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -63,14 +58,12 @@
     height: 80%;
     padding: 10px;
 }
-/*--SEC__3--SECTION--*/
 .main__section.sec__3{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 30px;
     background-color: var(--secundary-color, #fff );
-    
 }
 .sec__3-form{
     display: grid;
@@ -111,7 +104,6 @@ textarea{
     height: auto;
     justify-self: center;
 }
-/*--SEC__4--SECTION--*/
 .main__section.sec__4{
     height: 250px;
     display: flex;
