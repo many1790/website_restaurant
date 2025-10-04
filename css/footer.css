@@ -1,7 +1,7 @@
 /*--FOOTER--SECTION--*/
 .footer{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 40% 60%;
     border-top: 3px solid #fff;
 
     height: 350px;
@@ -11,28 +11,44 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-    
+    padding: 20px;
     background-color: #000;
     color: #fff;
 }
 .footer__div-2{
-    
+    padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     background-color: #000;
     color: #fff;
     height: 350px;
-    
+}
 .footer__img{
 
 }
 .footer__h2{
-
+    font-size: 20px;
+    align-self: center;
 }
 .footer__link{
-
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    align-self: center;
+}
+.link__address{
+    grid-row: 2/4;
+    grid-column: 3/4;
+    align-self:center;
+}
+.link__mail{
+grid-row: 4/5;
+grid-column: 3/4;
+align-self: start;
+}
+.link__phone{
+    grid-column: 3/4;
+    grid-row: 5/6;
 }
 .footer__div-1{
     display: flex;
@@ -41,5 +57,10 @@
     background-color: #000;
     color: #fff;
     border-top: 3px solid #fff;
-    width: 100%;
+    grid-column: 1/ 3;
+    padding: 15px;
+}
+.footer__h3{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
 }
