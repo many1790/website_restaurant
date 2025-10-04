@@ -1,11 +1,13 @@
 /*--HEADER--SECTION--*/
+/*--NAVBAR--*/
 .header__nav{
     background-color: #ffc400;
     width: 100%;
     height: 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 50px;
     border-bottom: 5px solid #fff;
     color: #fff;
     text-decoration: none;
@@ -13,7 +15,7 @@
 .header__logo{
     height: 60px;
     width: 60px;
-    
+    margin-right: 70px;
 }
 .header__link{
     text-decoration: none;
@@ -21,25 +23,28 @@
 }
 .header__link:hover{
     border-bottom: 2px solid #fff ;
-    
 }
 .header__aside-nav{
     display: flex;
     justify-content: space-evenly;
-    width: 25%;
-
+    margin-left: 50px;
+}
+.header__aside-logo{
+    width: 50px;
+    height: 50px;
 }
 .header__aside-phone{
     text-decoration: none;
     color: #fff;
-
+    align-self: center;
 }
+/*--HIGTHLIGTHS--*/
 .header__div{
     background-image: url(../images/bg.jpg);
     background-position: center;
-    background-attachment: fixed;
     background-size: cover;
-    display: flex;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
     color: #fff;
     align-items: center;
     box-shadow: 
@@ -48,20 +53,18 @@
 }
 .header__aside{
     margin-left: 50px;
-    
     }
 h1, .header__sp{
     font-size: 50px;
     font-weight: 800;
     font-style: italic;
     margin-bottom: 20px;
+    text-wrap: nowrap;
 }
 span{
     color: rgb(255, 196, 0);
 }
-.header__p{
-    
-}
 .header__image{
-    width: 60%;
+    width: 90%;
+    height: 90%;
 }
