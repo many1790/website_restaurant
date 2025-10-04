@@ -1,6 +1,5 @@
 
 :root{
-
     /*--COLORS--*/
     --primary-color:#ffc400;
     --secundary-color:#fff;
@@ -11,11 +10,7 @@
     --font-color-primary:#fff;
     --font-color-secundary:#ffc400;
     --font-color-third:#000;
-    
-
 }
-
-
 /*--BODY--*/
 *{
     margin: 0;
