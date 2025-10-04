@@ -38,8 +38,7 @@
 }
 .footer__link{
     font-size: 14px;
-    font-family: 'Times New Roman', Times, serif;
-    align-self: center;
+    align-self: end;
     text-decoration: none;
     color: #fff;
 }
