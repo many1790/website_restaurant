@@ -1,0 +1,17 @@
+
+:root{
+    --primary-color:#ffc400;
+    --secundary-color:#fff;
+    --third-color:#e3e1e1;
+    --fourd-color:#000;
+    --primary-font:"Poppins";
+    --font-color-primary:#fff;
+    --font-color-secundary:#ffc400;
+    --font-color-third:#000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
